@@ -12,18 +12,23 @@ fn main() {
     // Scalar Types
 
     // Rust has four primary scalar types:
-    // 1. integers 
+    // 1. integers - signed and unsigned
     // 2. floating-point numbers
     // 3. Booleans
     // 4. characters
 
     // Integers 
-    let number1: i32 = 1_000;
-    let number2: u32 = 2_000;
+    let int_number1: i32 = 1_000; // signed
+    let int_number2: u32 = 2_000; // unsigned
 
-    println!("\nNumber 1 : {number1}");
-    println!("Number 2 : {number2}");
+    println!("\nInteger Number 1 : {int_number1}");
+    println!("nInteger Number 2 : {int_number2}");
     
     // Floating-Point Types
-    
+    let float_number1: f32 = 10.55;
+    let  float_number2: f64 = 555.10; // default 
+
+    println!("\nFloat_number 1 : {float_number1}");
+    println!("Float_number 2 : {float_number2}");
+
 }
