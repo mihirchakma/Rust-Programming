@@ -31,4 +31,24 @@ fn main() {
     println!("\nFloat_number 1 : {float_number1}");
     println!("Float_number 2 : {float_number2}");
 
+    //*** Numeric Operations ***//
+
+    // addition 
+    let sum = 5 + 10;
+
+    // subtraction
+    let difference = 95.5 - 4.5;
+
+    // multiplication 
+    let product = 4 * 30;
+
+    // division 
+    let quotient = 56.7 / 35.10;
+    let truncated = -10 / 3; // Results in -1
+
+    // reminder 
+    let reminder = 43 % 5;
+
+    //*** END ****/
+
 }
