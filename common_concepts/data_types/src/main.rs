@@ -102,5 +102,23 @@ fn main() {
     println!("{thirty}");
 
     // 2. Array Type
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"];
 
+    println!("\nThe month is : {}", months[1]);
+
+    // creating an array 
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+
+    println!("The number of array is : {}", a[3]);
+
+    // Accessing Array Elements
+    let b = [1, 2, 3, 4, 5];
+    let first = b[0];
+    let second = b[1];
+    let third = b[2];
+
+    println!("\n{first}");
+    println!("{second}");
+    println!("{third}");
 }
