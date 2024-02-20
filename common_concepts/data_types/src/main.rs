@@ -17,7 +17,7 @@ fn main() {
     // 3. Booleans
     // 4. characters
 
-    // Integers 
+    // Integer Types 
     let int_number1: i32 = 1_000; // signed
     let int_number2: u32 = 2_000; // unsigned
 
@@ -30,6 +30,22 @@ fn main() {
 
     println!("\nFloat_number 1 : {float_number1}");
     println!("Float_number 2 : {float_number2}");
+
+    // Boolean Type
+    let is_alive = true;
+    let is_raining: bool = false; // with explicit type annotation
+
+    println!("\nIs he alive : {is_alive}");
+    println!("Is raining today : {is_raining}");
+
+    // Character Type
+    let alphabet = 'A';
+    let letter: char = 'X';
+    let crab = '🦀';
+
+    println!("\nAlphabet letter : {alphabet}");
+    println!("Letter : {letter}");
+    println!("Crab Emoji : {crab}");
 
     //*** Numeric Operations ***//
 
@@ -49,6 +65,16 @@ fn main() {
     // reminder 
     let reminder = 43 % 5;
 
+    println!("\n{sum}");
+    println!("{difference}");
+    println!("{product}");
+    println!("{quotient}");
+    println!("{truncated}");
+    println!("{reminder}");
+
     //*** END ****/
+
+    
+    // Compound Types
 
 }
