@@ -17,28 +17,28 @@ fn main() {
     // 3. Booleans
     // 4. characters
 
-    // Integer Types 
+    // 1. Integer Types 
     let int_number1: i32 = 1_000; // signed
     let int_number2: u32 = 2_000; // unsigned
 
     println!("\nInteger Number 1 : {int_number1}");
     println!("nInteger Number 2 : {int_number2}");
     
-    // Floating-Point Types
+    // 2. Floating-Point Types
     let float_number1: f32 = 10.55;
     let  float_number2: f64 = 555.10; // default 
 
     println!("\nFloat_number 1 : {float_number1}");
     println!("Float_number 2 : {float_number2}");
 
-    // Boolean Type
+    // 3. Boolean Type
     let is_alive = true;
     let is_raining: bool = false; // with explicit type annotation
 
     println!("\nIs he alive : {is_alive}");
     println!("Is raining today : {is_raining}");
 
-    // Character Type
+    // 4. Character Type
     let alphabet = 'A';
     let letter: char = 'X';
     let crab = '🦀';
@@ -81,7 +81,7 @@ fn main() {
     // 1. tuples 
     // 2. arrays
 
-    // Tuple Type
+    // 1. Tuple Type
     let tup = (500, 5.6, 10);
     let (x, y, z) = tup; // destructuring 
 
@@ -100,4 +100,7 @@ fn main() {
     println!("\n{one_hundred}");
     println!("{eleven_point_four}");
     println!("{thirty}");
+
+    // 2. Array Type
+
 }
