@@ -74,7 +74,30 @@ fn main() {
 
     //*** END ****/
 
-    
+
     // Compound Types
 
+    // Rust has two primitive compound types:
+    // 1. tuples 
+    // 2. arrays
+
+    // Tuple Type
+    let tup = (500, 5.6, 10);
+    let (x, y, z) = tup; // destructuring 
+
+    println!("\nThe value of x is {x}");
+    println!("The value of x is {y}");
+    println!("The value of x is {z}");
+
+    // access a tuple element directly by using a period (.) 
+    // followed by the index of the value
+    let x: (i32, f64, u8) = (100, 11.4, 30);
+
+    let one_hundred = x.0;
+    let eleven_point_four = x.1;
+    let thirty = x.2;
+
+    println!("\n{one_hundred}");
+    println!("{eleven_point_four}");
+    println!("{thirty}");
 }
