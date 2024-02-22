@@ -8,7 +8,6 @@ fn main() {
 
 
     // Statements and Expressions
-
     let a = 6; // statement 
 
     println!("\n{a}");
@@ -21,8 +20,19 @@ fn main() {
     println!("The value of y is: {y}");
 
 
+    // Functions with Return Values
     let call_five = five();
     println!("\nThe value of function's return type is : {call_five}");
+
+    let add_one = plus_one(10);
+
+    println!("\nThe value is: {add_one}");
+
+    // print example
+    println!("{}", f({
+        let y = 1;
+        y + 1
+      }));
 }
 
 // Creating Functions 
@@ -45,4 +55,14 @@ fn print_date_month_year(date:i32, month: String, year: i64) {
 // Functions with Return Values
 fn five() -> i32 {
     5
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
+}
+
+// example 
+
+fn f(x: i32) -> i32 { 
+    x + 1 
 }
