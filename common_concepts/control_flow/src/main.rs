@@ -37,4 +37,20 @@ fn main() {
     let number_2 = if condition { 5 } else { 8 };
 
     println!("\nThe value of number is: {number_2}");
+
+
+
+    // Repetition with Loops
+    // Rust has three loops:
+    // 1. loop
+    // 2. while 
+    // 3. for 
+
+    // Repeating Code with loop
+    loop {
+        println!("Count me");
+        // if we remove break, Program will run forever, 
+        // until we stop it manually (ctrl + c)
+        break; 
+    }
 }
