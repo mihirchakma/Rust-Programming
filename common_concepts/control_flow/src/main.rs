@@ -18,7 +18,7 @@ fn main() {
     }
 
     // Handling Multiple Conditions with else if
-    let number_1 = 6;
+    let number_1 = 9;
 
     if number_1 % 4 == 0 {
         println!("\nNumber is divisible by 4");
@@ -29,4 +29,12 @@ fn main() {
     } else {
         println!("\nnumber is not divisible by 4, 3, or 2");
     }
+
+    // Using if in a let Statement
+    let condition = true;
+    // let condition = false;
+
+    let number_2 = if condition { 5 } else { 8 };
+
+    println!("\nThe value of number is: {number_2}");
 }
