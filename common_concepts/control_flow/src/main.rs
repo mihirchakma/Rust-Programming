@@ -48,9 +48,22 @@ fn main() {
 
     // Repeating Code with loop
     loop {
-        println!("Count me");
+        println!("\nLet's Count!");
         // if we remove break, Program will run forever, 
         // until we stop it manually (ctrl + c)
         break; 
     }
+
+    // Returning Values from Loops
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+
+    println!("\nThe result is {result}");
 }
