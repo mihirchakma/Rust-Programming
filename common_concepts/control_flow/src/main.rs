@@ -87,6 +87,17 @@ fn main() {
 
         count += 1
     }
-    println!("End count = {count}")
+    println!("End count = {count}\n");
+
+    // 2. Conditional Loops with while
+    let mut count_number = 5;
+
+    while count_number != 0 {
+        println!("{count_number}!");
+
+        count_number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
 
 }
