@@ -120,4 +120,18 @@ fn main() {
         println!("the value is: {element}");
     }
 
+    // to reverse the range:
+    for number_item in (1..5).rev() {
+        println!("{number_item}!");
+    }
+    println!("LIFTOFF!!!\n");
+
+    // example 1
+    let a = [5; 10]; //  5 repeated 10 times
+    let mut sum = 0; // note that the syntax [5; 10] is different from [5, 10]
+    for x in a {
+        sum += x;
+    }
+    println!("The sum is: {sum}");
+
 }
