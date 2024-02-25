@@ -98,6 +98,26 @@ fn main() {
         count_number -= 1;
     }
 
-    println!("LIFTOFF!!!");
+    println!("LIFTOFF!!!\n");
+
+    // Looping Through a Collection with for
+    let array_list = [10, 20, 30, 40, 50];
+
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", array_list[index]);
+
+        index += 1;
+    }
+
+    println!();
+    
+    // 3. for loop 
+    let arr = [60, 70, 80, 90, 100];
+
+    for element in arr {
+        println!("the value is: {element}");
+    }
 
 }
