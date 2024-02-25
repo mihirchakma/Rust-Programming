@@ -40,13 +40,13 @@ fn main() {
 
 
 
-    // Repetition with Loops
+    //*** Repetition with Loops ***
     // Rust has three loops:
     // 1. loop
     // 2. while 
     // 3. for 
 
-    // Repeating Code with loop
+    // 1. Repeating Code with loop
     loop {
         println!("\nLet's Count!");
         // if we remove break, Program will run forever, 
@@ -65,5 +65,28 @@ fn main() {
         }
     };
 
-    println!("\nThe result is {result}");
+    println!("\nThe result is {result}\n");
+
+    // Loop Labels to Disambiguate Between Multiple Loops
+    let mut count = 0;
+
+    'counting_up: loop {
+        println!("Count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("Remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1
+        }
+
+        count += 1
+    }
+    println!("End count = {count}")
+
 }
