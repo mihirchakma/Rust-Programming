@@ -108,7 +108,7 @@ fn main() {
     while index < 5 {
         println!("the value is: {}", array_list[index]);
 
-        index += 1;
+        index += 1; // index = index + 1;
     }
 
     println!();
